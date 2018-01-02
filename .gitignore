@@ -1,0 +1,30 @@
+# Pycharm
+.idea
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# backup files
+*~
+*.swp
+
+# Translations
+*.mo
+
+# Mac DS
+*.DS_Store
+
+# css
+*.css.map
+
+# 忽略所有 .a结尾的文件,but lib.a除外
+*.a
+!lib.a
+# 仅仅忽略项目根目录下的TODO文件
+/TODO
+# 忽略.idea目录下的所有文件
+idea/
+# 忽略根目录下所有扩展名的txt
+/*.txt
