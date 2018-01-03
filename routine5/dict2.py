@@ -37,4 +37,5 @@ print(D)
 M = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 # 把矩阵M中的每一个row中的row[1],放在一个新列表中
 col2 = [row[1] for row in M]
+col3 = [row[1] for row in M if row[1]%2 == 1]
 #
