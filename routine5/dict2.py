@@ -27,8 +27,14 @@ print(D)
 D = {'a'+x: x*4 for x in 'gakki'}
 print(D)
 
-D = {c.lower(): c +'!' for c in ['Gakki', 'Gal']}
+D = {c.lower(): c + '!' for c in ['Gakki', 'Gal']}
 print(D)
 
 # --------
 # t
+# 列表解析表达式
+#
+M = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# 把矩阵M中的每一个row中的row[1],放在一个新列表中
+col2 = [row[1] for row in M]
+#
