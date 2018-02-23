@@ -47,3 +47,30 @@ l = list(d.keys())
 l.sort()
 for i in l:
     print(i, '=>', d[i])
+
+print('kkk')
+
+print("knight's")
+
+print('一花一世界\
+一叶一菩提')
+print('一花一世界\一叶一菩提')
+print('一花一世界\\一叶一菩提')
+print('\'')
+print('\"')
+print('"')
+print('x\ax')
+print('x12345\bx')
+print('x12345\fx')
+print('x12345\nx')
+print('x12345\tx')
+print(len('x12345\tx'))
+print('x12345  x')
+print(len('x12345 x'))
+print(len('x12345  x'))
+print('x123asjlf\other;;asf')
+# myfile = open('C:\new\text.txt') z这样是有毒的
+# myfile = open('C:\new\text.txt') # z这样是有毒的
+
+print('%s---'*3 %(1, '12', ['1',2]))
+
